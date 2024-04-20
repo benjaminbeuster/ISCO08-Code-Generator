@@ -37,3 +37,5 @@ st.markdown(
     """
 )
 st.image("assets/sikt.jpg", width=200)
+
+# the app is published here: https://isco08-code-generator.streamlit.app/
