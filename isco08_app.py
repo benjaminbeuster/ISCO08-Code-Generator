@@ -3,6 +3,9 @@ from langchain_openai import OpenAI
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
+
+# Now you can access the environment variables
 llm = OpenAI(temperature=0)
 
 # Add title, image and header
