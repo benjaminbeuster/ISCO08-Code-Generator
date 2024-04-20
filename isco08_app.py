@@ -1,6 +1,5 @@
-import pandas as pd
 import streamlit as st
-from langchain_openai import OpenAI, ChatOpenAI
+from langchain_openai import OpenAI
 import os
 from dotenv import load_dotenv
 
