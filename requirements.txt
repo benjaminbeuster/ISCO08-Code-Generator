@@ -1,0 +1,11 @@
+langchain
+langchain_openai
+langchain_experimental
+langchain-community
+langchainhub
+openai
+huggingface_hub
+pandas
+python-dotenv
+jupyter
+streamlit
