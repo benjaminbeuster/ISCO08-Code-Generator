@@ -30,8 +30,8 @@ job_qualifications = st.text_input('3. What training or qualifications are neede
 
 # Request headers and URL
 api_key = os.getenv('api_key')
-url = 'https://isco08-testing.westeurope.inference.ml.azure.com/score'
-headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key), 'azureml-model-deployment': 'isco08-testing-1' }
+url = 'https://ai-testing-isco2.westeurope.inference.ml.azure.com/score'
+headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key), 'azureml-model-deployment': 'ai-testing-isco2-1'}
 
 button_clicked = st.button('Generate ISCO-08 code')
 
