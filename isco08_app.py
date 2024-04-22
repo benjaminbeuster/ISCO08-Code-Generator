@@ -3,9 +3,10 @@ from langchain_openai import OpenAI
 import os
 from dotenv import load_dotenv
 
+# Now you can access the environment variables
 load_dotenv()
 
-# Now you can access the environment variables
+# Create the model
 llm = OpenAI(temperature=0)
 
 # Add title, image and header
