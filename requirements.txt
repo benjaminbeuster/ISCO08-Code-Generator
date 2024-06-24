@@ -1,7 +1,7 @@
 langchain
 langchain_openai
-#langchain_azure_openai # use with AzureOpenAI keys
-openai
+#langchain_azure_openai # use with AzureOpenAI keys, on Streamlit, use OpenAI key
+openai # for testing AzureOpenAI
 huggingface_hub
 python-dotenv
 streamlit

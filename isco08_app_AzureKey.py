@@ -1,6 +1,5 @@
 import streamlit as st
 from langchain.prompts import ChatPromptTemplate
-from langchain_openai import ChatOpenAI
 from langchain_openai import AzureChatOpenAI
 from langchain.schema.output_parser import StrOutputParser
 import os
